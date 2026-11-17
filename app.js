@@ -1,5 +1,5 @@
 import { CONFIG } from './config.js?v=1';
-import { createBackend } from './backend.js?v=1';
+import { createBackend } from './backend.js?v=2';
 
 const backend=createBackend();const $=selector=>document.querySelector(selector);const $$=selector=>[...document.querySelectorAll(selector)];
 const state={posts:[],social:new Map(),name:'',category:'all',sort:'popular',search:'',openComments:new Set(),busy:new Set()};
